@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/clover.png">
+
+    <title>Cal Belden</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="assets/img/clover.png" style="width: 6%; height: 6%"> Cal</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- +++++ Welcome Section +++++ -->
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<img src="assets/img/cal.png" alt="Calvin">
+					<h1>Cal Belden</h1>
+					<p>software developer and computer science enthusiast</p>
+				</div><!-- /col-lg-8 -->
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /ww -->
+	
+	
+	<!-- +++++ About Section +++++ -->
+	
+	<div class="container pt">
+        <div  id="about" class="col-lg-11 col-lg-offset-1 about">
+            <h1>About </h1>
+            <div class="col-lg-8">
+                <p>Hi! I'm Cal, and I live in Chicago, IL where I work as a software developer. I recently graduated from Notre Dame where I snuck into a fair share of computer science courses. I took an introductory programming course a couple years ago, and I've been gripped ever since.</p>
+
+                <p>Below you'll find a few of my CS related interests as well as some of my current side projects. Feel free to <a href="#contact">email me, check out my GitHub, or connect on LinkedIn or Facebook.</a></p>
+
+                <div class="col-lg-6">
+                    <h3>Interests</h3>
+
+                    <ul>
+                        <li>Web development</li>
+                        <li>Information retrieval</li>
+                        <li>AI</li>
+                        <li>Machine learning</li>
+                        <li>Data mining</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3" style="margin: 5% auto">
+                <h4>Working On</h4>
+                <p><a href="http://www.redditsearch.io" target="blank">Reddit Search</a></p>
+
+                <h4>Reading</h4>
+                <p><em>Brothers Karamazov</em></p>
+
+                <h4>Watching</h4>
+                <p><em>Game of Thrones</em></p>
+
+                <h4>Latest Milestone</h4>
+                <p>Graduated from Notre Dame in May!</a></p>
+            </div>
+        </div><!-- /col-lg-8 -->
+	</div><!-- /container -->
+    
+    
+    <!-- +++++ Projects Section +++++ -->
+    
+    <div class="container pt">
+        <div  id="projects" class="col-lg-11 col-lg-offset-1 about">
+            <h1>Recent Projects</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2><a href="http://www.redditsearch.io">Reddit Search</a></h2>
+                    <p>Users of the popular social news site, Reddit, probably know how cruddy the search feature is. Reddit Search aims to remedy this using modern ranking algorithms to more accurately estimate each link's relevancy.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h2><a href="https://github.com/cbelden/pybeacon">pybeacon</a></h2>
+                    <p>My senior design group created a Bluetooth beacon logging device, <a href="http://seniordesign.ee.nd.edu/2014/Design%20Teams/gspace/index.html" target="blank">trackr</a>, which is controlled by the pybeacon Python package. The trackr device simply listens for proximal Bluetooth beacons then records the beacon ID along with a timestamp. Beacon records from multiple trackrs can then be used to reconstruct paths that the beacons have taken.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h2><a href="https://github.com/cbelden/lyric_scramble">Lyric Scramble</a></h2>
+                    <p>Lyric Scramble constructs a Markov chain trained on user specified song lyrics and then composes silly messages by performing a random walk. Currently, the program is a simple console application, but I plan on moving this functionality to a web service.</p>
+                </div>
+
+            </div><!-- /row -->
+        </div><!-- projects -->
+    </div><!-- /container -->
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div id="contact" class="container">
+			<div class="row centered">
+                    <div class="col-lg-3">
+                        <a href="mailto://calvinbelden@gmail.com" target="blank">
+                            <img class="zoom2" src="assets/img/email.gif" style="width: 20%; height: 20%"></img>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="https://github.com/cbelden" target="blank">
+                            <img class="zoom2" src="assets/img/github.png" style="width: 25%; height: 25%"></img>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="http://www.linkedin.com/pub/calvin-belden/7a/7b/34/" target="blank">
+                            <img class="zoom2" src="assets/img/linkedin.png" style="width: 20%; height: 20%"></img>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="https://www.facebook.com/CAAAAAALVIN" target="blank">
+                            <img class="zoom2" src="assets/img/fb.png" style="width: 17%; height: 17%"></img>
+                        </a>
+                    </div>
+
+			</div><!-- /row centered -->
+		
+		</div><!-- contact -->
+
+	</div><!-- footer -->
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Smooth scrolling snippet -->
+    <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+    </script>
+  </body>
+</html>
